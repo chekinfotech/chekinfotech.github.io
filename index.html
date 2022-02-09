@@ -6,14 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Welcome</title>
+		<title>Dimension by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -21,13 +20,13 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-diamond"></span>
+							<span class="icon fa-gem"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Dimension</h1>
-								<p><!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-								<!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]--></p>
+								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
+								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
 							</div>
 						</div>
 						<nav>
@@ -71,28 +70,30 @@
 							<article id="contact">
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -154,19 +155,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</ol>
 									<h4>Icons</h4>
 									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 									</ul>
 
 									<h4>Actions</h4>
 									<ul class="actions">
-										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button primary">Default</a></li>
 										<li><a href="#" class="button">Default</a></li>
 									</ul>
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
 										<li><a href="#" class="button">Default</a></li>
 									</ul>
 								</section>
@@ -269,7 +270,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<section>
 									<h3 class="major">Buttons</h3>
 									<ul class="actions">
-										<li><a href="#" class="button special">Special</a></li>
+										<li><a href="#" class="button primary">Primary</a></li>
 										<li><a href="#" class="button">Default</a></li>
 									</ul>
 									<ul class="actions">
@@ -277,11 +278,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li><a href="#" class="button small">Small</a></li>
 									</ul>
 									<ul class="actions">
-										<li><a href="#" class="button special icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
 									</ul>
 									<ul class="actions">
-										<li><span class="button special disabled">Disabled</span></li>
+										<li><span class="button primary disabled">Disabled</span></li>
 										<li><span class="button disabled">Disabled</span></li>
 									</ul>
 								</section>
@@ -289,17 +290,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<section>
 									<h3 class="major">Form</h3>
 									<form method="post" action="#">
-										<div class="field half first">
-											<label for="demo-name">Name</label>
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-										</div>
-										<div class="field half">
-											<label for="demo-email">Email</label>
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-										</div>
-										<div class="field">
-											<label for="demo-category">Category</label>
-											<div class="select-wrapper">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
 												<select name="demo-category" id="demo-category">
 													<option value="">-</option>
 													<option value="1">Manufacturing</option>
@@ -308,29 +309,29 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 													<option value="1">Human Resources</option>
 												</select>
 											</div>
-										</div>
-										<div class="field half first">
-											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-											<label for="demo-priority-low">Low</label>
-										</div>
-										<div class="field half">
-											<input type="radio" id="demo-priority-high" name="demo-priority">
-											<label for="demo-priority-high">High</label>
-										</div>
-										<div class="field half first">
-											<input type="checkbox" id="demo-copy" name="demo-copy">
-											<label for="demo-copy">Email me a copy</label>
-										</div>
-										<div class="field half">
-											<input type="checkbox" id="demo-human" name="demo-human" checked>
-											<label for="demo-human">Not a robot</label>
-										</div>
-										<div class="field">
-											<label for="demo-message">Message</label>
-											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
 										</div>
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="submit" value="Send Message" class="primary" /></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</form>
@@ -352,33 +353,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-		
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBTqb_gAzjLk5UX2DGoSb8fIm-aChLmFmU",
-  authDomain: "clinicaccreditation.firebaseapp.com",
-  projectId: "clinicaccreditation",
-  storageBucket: "clinicaccreditation.appspot.com",
-  messagingSenderId: "364533241396",
-  appId: "1:364533241396:web:097f647ff2a3c2fc2adc61",
-  measurementId: "G-6Q8N4T454D"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 	</body>
 </html>
