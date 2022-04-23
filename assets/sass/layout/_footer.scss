@@ -1,37 +1,62 @@
 ///
-/// Dimension by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+/// Slate by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
 ///
 
 /* Footer */
 
 	#footer {
-		@include vendor('transition', (
-			'transform #{_duration(article)} ease-in-out',
-			'filter #{_duration(article)} ease-in-out',
-			'opacity #{_duration(article)} ease-in-out',
-		));
-		width: 100%;
-		max-width: 100%;
-		margin-top: 2rem;
-		text-align: center;
+		@include padding(4em, 0);
+		border-top: solid 1px _palette(border);
+		position: relative;
+
+		> .inner {
+			margin: 0 auto;
+			max-width: 90em;
+			position: relative;
+			width: 90%;
+		}
 
 		.copyright {
-			letter-spacing: _font(letter-spacing);
-			font-size: 0.6rem;
-			opacity: 0.75;
-			margin-bottom: 0;
-			text-transform: uppercase;
+			color: _palette(fg-light);
+			font-size: 0.9em;
 		}
 
-		body.is-article-visible & {
-			@include vendor('transform', 'scale(0.95)');
-			@include vendor('filter', 'blur(0.1rem)');
-			opacity: 0;
+		.menu {
+			color: _palette(fg-light);
+			font-size: 0.9em;
+			position: absolute;
+			right: 0;
+			top: 0;
+
+			a {
+				color: inherit;
+			}
 		}
 
-		body.is-preload & {
-			opacity: 0;
+		@include breakpoint('<=large') {
+			@include padding(3em, 0);
+			text-align: center;
+
+			.copyright {
+				margin: 0 0 (_size(element-margin) * 0.5) 0;
+			}
+
+			.menu {
+				position: relative;
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			.menu {
+				li {
+					a {
+						span {
+							display: none;
+						}
+					}
+				}
+			}
 		}
 	}
