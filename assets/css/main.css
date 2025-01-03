@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .button.primary:hover {
-    background-color: #515151;
+    background-color: #255;
 }
 
 /* Add a specific style for the "book now" button */
