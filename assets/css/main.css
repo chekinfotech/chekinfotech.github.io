@@ -32,8 +32,8 @@ footer, header, hgroup, menu, nav, section {
 
 
 .button.primary {
-    background-color: #444;
-    color: #fff !important;
+    background-color: #255;
+    color: #255 !important;
 }
 
 .button.primary:hover {
