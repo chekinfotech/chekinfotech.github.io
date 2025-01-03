@@ -29,26 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-.button {
-    font-size: 1rem;
-    line-height: 1.5;
-    display: inline-block;
-    font-weight: bold;
-    color: #444 !important;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 2px solid transparent;
-    cursor: pointer;
-    user-select: none;
-    padding: 0.5rem 1.5rem;
-    transition: all 0.2s ease-in-out;
-}
 
-.button:hover {
-    background-color: #f6f6f6;
-}
 
 .button.primary {
     background-color: #444;
