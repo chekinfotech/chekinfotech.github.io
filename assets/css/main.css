@@ -79,7 +79,7 @@ footer, header, hgroup, menu, nav, section {
 
 .book-now:hover {
     background-color: #515151;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 }
