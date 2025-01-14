@@ -30,6 +30,31 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 
+.button.book-now {
+		background-color: #eca21bcf; /* Tame orange */
+		color: #fff; /* White text */
+		border: none; /* No border */
+		padding: 0px 15px; /* Adjust padding as needed */
+		border-radius: 5px; /* Rounded corners */
+		text-decoration: none; /* No underline */
+		display: inline-block; /* Ensure it's treated like a block */
+		text-align: center; /* Center text */
+		margin: 0 auto; /* Center the button horizontally */
+		position: relative; /* Necessary for absolute centering */
+	}
+	
+	.button.book-now:hover {
+		background-color: #ff9616; /* Deeper orange on hover */
+		cursor: pointer; /* Pointer cursor for buttons */
+	}
+	
+	/* Center the button in the container */
+	.container {
+		display: flex; /* Flexbox for centering */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		height: 100vh; /* Full-height container for centering */
+	}
 
 .button.primary {
     background-color: #255;
