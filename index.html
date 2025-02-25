@@ -68,50 +68,89 @@
 			<font size="+1">We know that clinic development can be challenging, let us support you so you can focus on what matters most.
 			</center>
 			</font>
-
 			
-
-			<!-- Sample Downloads Section -->
-			<section id="samples" class="wrapper style2">
-				<div class="inner">
-					<h2>For a Sample of Our Work</h2>
-					<p>Explore our curated selection of sample forms, logs, and checklists designed to support your clinic’s accreditation journey.</p>
-					<ul class="downloads" style="list-style: none; padding: 0;">
-						<li style="margin-bottom: 10px;">
-							<a href="files/IPAC_policy_excerpt.pdf" target="_blank" style="color: #2a7ae2; font-weight: bold; font-style: italic; text-decoration: none;">
-								Excerpt of IPAC Policy &amp; Procedure Manual (PDF)
-							</a>
-						</li>
-						<li style="margin-bottom: 10px;">
-							<a href="files/Daily_housekeeping_log.docx" target="_blank" style="color: #2a7ae2; font-weight: bold; font-style: italic; text-decoration: none;">
-								Daily Housekeeping Log (DOCX)
-							</a>
-						</li>
-						<li style="margin-bottom: 10px;">
-							<a href="files/Ultrasound_probe_disinfectant_log.pdf" target="_blank" style="color: #2a7ae2; font-weight: bold; font-style: italic; text-decoration: none;">
-								Ultrasound Probe Disinfectant Log (PDF)
-							</a>
-						</li>
-						<li style="margin-bottom: 10px;">
-							<a href="files/Form4_sample.pdf" target="_blank" style="color: #2a7ae2; font-weight: bold; font-style: italic; text-decoration: none;">
-								Form 4 Sample (PDF)
-							</a>
-						</li>
-						<li style="margin-bottom: 10px;">
-							<a href="files/Form5_sample.docx" target="_blank" style="color: #2a7ae2; font-weight: bold; font-style: italic; text-decoration: none;">
-								Form 5 Sample (DOCX)
-							</a>
-						</li>
-						<li style="margin-bottom: 10px;">
-							<a href="files/Form6_sample.pdf" target="_blank" style="color: #2a7ae2; font-weight: bold; font-style: italic; text-decoration: none;">
-								Form 6 Sample (PDF)
-							</a>
-						</li>
-						<!-- Add additional files as needed -->
-					</ul>
-					<p><em>No License or Attribution Required! - We are delighted to offer these resources completely free of charge!</em></p>
+		<!-- Sample Downloads Section - Version 2 -->
+		<section id="samples" class="wrapper style2">
+			<div class="inner">
+			<h2>For a Sample of Our Work</h2>
+			<p>Explore our curated selection of sample forms, logs, and checklists designed to support your clinic’s accreditation journey.</p>
+			<div class="download-table">
+				<div class="download-row">
+				<a href="files/IPAC_policy_excerpt.pdf" target="_blank" class="download-link">
+					Excerpt of IPAC Policy &amp; Procedure Manual (PDF) <span class="download-arrow"><i class="fa fa-download" aria-hidden="true"></i></span>
+				</a>
+				<a href="files/Daily_housekeeping_log.docx" target="_blank" class="download-link">
+					Daily Housekeeping Log (DOCX) <span class="download-arrow"><i class="fa fa-download" aria-hidden="true"></i></span>
+				</a>
 				</div>
-			</section>
+				<div class="download-row">
+				<a href="files/Ultrasound_probe_disinfectant_log.pdf" target="_blank" class="download-link">
+					Ultrasound Probe Disinfectant Log (PDF) <span class="download-arrow"><i class="fa fa-download" aria-hidden="true"></i></span>
+				</a>
+				<a href="files/Form4_sample.pdf" target="_blank" class="download-link">
+					Form 4 Sample (PDF) <span class="download-arrow"><i class="fa fa-download" aria-hidden="true"></i></span>
+				</a>
+				</div>
+				<div class="download-row">
+				<a href="files/Form5_sample.docx" target="_blank" class="download-link">
+					Form 5 Sample (DOCX) <span class="download-arrow"><i class="fa fa-download" aria-hidden="true"></i></span>
+				</a>
+				<a href="files/Form6_sample.pdf" target="_blank" class="download-link">
+					Form 6 Sample (PDF) <span class="download-arrow"><i class="fa fa-download" aria-hidden="true"></i></span>
+				</a>
+				</div>
+			</div>
+			<p><em>No License or Attribution Required! - We are delighted to offer these resources completely free of charge!</em></p>
+			</div>
+		</section>
+		
+		<style>
+		.download-table {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+		}
+		
+		.download-row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			gap: 15px;
+		}
+		
+		.download-link {
+			flex: 1 1 calc(50% - 15px);
+			display: block;
+			color: #2a7ae2;
+			font-weight: bold;
+			font-style: italic;
+			text-decoration: none;
+			padding: 10px;
+			border: 1px solid #2a7ae2;
+			border-radius: 5px;
+			text-align: center;
+			transition: background 0.2s;
+		}
+		
+		.download-link:hover {
+			background: #f0f8ff;
+		}
+		
+		.download-arrow {
+			margin-left: 5px;
+		}
+		
+		.download-arrow i {
+			color: green;
+		}
+		
+		@media (max-width: 600px) {
+			.download-link {
+			flex: 1 1 100%;
+			}
+		}
+		</style>
+
 
 		<!-- Two -->
 			<section id="two" class="wrapper content-pad">
